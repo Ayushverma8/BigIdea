@@ -1,0 +1,33 @@
+{
+  "name": "project-srm",
+  "version": "0.1.0",
+  "private": true,
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayushverma8/Project-SRM.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ayushverma8/Project-SRM/issues"
+  },
+  "homepage": "https://github.com/Ayushverma8/Project-SRM#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.14.2",
+    "mongoose": "^4.7.0",
+    "nodemailer": "^2.6.4",
+    "uuid": "^3.0.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0"
+  }
+}

@@ -1,0 +1,97 @@
+#thankyou {
+  background-color: white;
+  border-radius: 5%;
+  height: 200px;
+  width: 300px;
+  border: 6px solid #e2552d;
+  box-shadow: 7px 7px 4px #4999b6;
+  margin: 250px auto;
+  text-align: center;
+  -webkit-animation: flash 1.2s ease 0s infinite;
+  animation: flash 1.2s ease 0s infinite;
+}
+
+#h2thankyou {
+  color: #4999b6;
+  padding: 32px;
+  margin-bottom: 76px;
+  font-size: 44px;
+  font-family: 'Open Sans', 'sans-serif';
+  -webkit-animation: flashtwo 1.2s linear 0s infinite;
+  animation: flashtwo 1.2s linear 0s infinite;
+}
+
+a {
+  font-family: 'Open Sans'. 'sans-serif';
+  text-decoration: none;
+  color: #4999b6;
+  padding: 8px 12px;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 4px;
+}
+
+a:active {
+  color: white;
+  background-color: #e2552d;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    background-color: white;
+  }
+  49% {
+    background-color: white;
+  }
+  50% {
+    background-color: #e2552d;
+  }
+  100% {
+    background-color: #e2552d;
+  }
+}
+
+@keyframes flash {
+  0% {
+    background-color: white;
+  }
+  49% {
+    background-color: white;
+  }
+  50% {
+    background-color: #e2552d;
+  }
+  100% {
+    background-color: #e2552d;
+  }
+}
+
+@-webkit-keyframes flashtwo {
+  0% {
+    color: #e2552d;
+  }
+  49% {
+    color: #e2552d;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: white;
+  }
+}
+
+@keyframes flashtwo {
+  0% {
+    color: #e2552d;
+  }
+  49% {
+    color: #e2552d;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: white;
+  }
+}

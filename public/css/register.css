@@ -1,0 +1,74 @@
+html,
+body {
+    height: 100%;
+}
+html {
+    display: table;
+    margin: auto;
+}
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+.margin {
+  margin: 0 !important;
+}
+.login-form erroru, .login-form errorp {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 38px;
+	font-size: 11px;
+	font-weight: 300;
+	transition: 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55) all;
+	-moz-transition: 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55) all;
+	-webkit-transition: 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55) all;
+	opacity: 0;
+}
+
+.login-form erroru i,.login-form errorp i {
+	position: absolute;
+	right: 0;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	float: right;
+}
+
+.login-form erroru i svg, .login-form errorp i svg {
+	fill:#d34336;
+}
+
+
+.login-form[errr] .validate {
+	border-bottom: 1px solid #d34336 !important;	
+}
+
+.login-form[errr] .validate:focus {
+	border-bottom: 2px solid #d34336 !important;	
+}
+
+
+.login-form[errr] erroru, .login-form[errr] errorp  {
+	opacity: 1;
+}
+#submitdiv > i {
+  display: flex;
+  padding: 0;
+}
+
+#submitLink {
+  align-items: stretch;
+  background-color: transparent;
+  font-style: normal;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#submitLink:focus {
+  outline: none;
+}
