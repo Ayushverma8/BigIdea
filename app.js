@@ -11,7 +11,7 @@ var app = express();
 app.engine('.hbs', handlebars({extname: '.hbs'}));
 app.set('view engine', '.hbs');
 
-app.set('port', process.env.PORT || 80);
+app.set('port', process.env.PORT || 8000);
 
 var mongoose = require('mongoose');
 var opts = {
